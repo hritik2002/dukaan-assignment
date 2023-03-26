@@ -1,0 +1,107 @@
+.freeSlogans {
+  padding: 0 10%;
+  box-sizing: border-box;
+  background-color: #fafafa;
+  background: linear-gradient(to bottom, #146eb4 15%, #fafafa 15%);
+  padding-bottom: 60px;
+  font-family: "galano-regular";
+}
+.freeSlogans hr {
+  opacity: 0.2;
+  margin: 40px 0 30px 0;
+}
+.freeslogan_container {
+  width: 100%;
+  text-align: start;
+  padding: 25px 15%;
+  box-sizing: border-box;
+  box-shadow: 0px 2px 8px 0px #1a181e0f;
+  background-color: #ffffff;
+  border-radius: 4px;
+}
+.freeslogan_container_title {
+  font-family: "galano-semibold";
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.freeslogan_container_subtitle {
+  color: #4d4d4d;
+  width: 80%;
+  font-family: inherit;
+  font-size: 16px;
+  margin-top: 12px;
+}
+.freeslogan_search_subtitle {
+  margin-top: 35px;
+  font-size: 14px;
+  color: #4d4d4d;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.freeslogan_search_component {
+  border: 1px solid #d9d9d9;
+  padding: 4px 8px;
+  width: 200px;
+  margin-bottom: 30px;
+  border-radius: 2px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.freeslogan_search_component span {
+  cursor: pointer;
+}
+.freeslogan_search_component input {
+  border: none;
+  flex: 1;
+  padding: 4px;
+  font-family: "galano-medium";
+}
+.freeslogan_search_component input:focus {
+  outline: none;
+}
+.generate_slogan_btn {
+  background-color: #146eb4;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 8px 16px;
+  font-family: "galano-medium";
+  cursor: pointer;
+}
+.generate_slogan_btn:active {
+  opacity: 0.9;
+}
+.slogans_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.slogan_top_title {
+  font-family: "galano-medium";
+  color: #1a181e;
+  font-size: 16px;
+}
+.downloadAll_button {
+  border: 1px solid #146EB4;
+  width: max-content;
+  color: #146EB4;
+  background-color: transparent;
+  border-radius: 3px;
+  padding: 8px 16px;
+  font-family: "galano-medium";
+  cursor: pointer;
+}
+.downloadAll_button:active {
+  background-color: #146EB4;
+  color: #fff;
+}
+
+@media only screen and (max-width: 815px) {
+  .slogans_top {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+}

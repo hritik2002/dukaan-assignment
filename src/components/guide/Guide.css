@@ -1,0 +1,43 @@
+.guide_parent {
+  display: flex;
+  background-color: #f3f8fb;
+  padding: 40px 10%;
+  box-sizing: border-box;
+  font-family: "galano-regular";
+}
+.guide_container {
+  flex: 1;
+  margin: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.guide_container img {
+  width: 40px;
+}
+.guide_container .description {
+  font-size: 14px;
+  color: #4d4d4d;
+  margin: 0;
+  font-family: inherit;
+}
+.guide_container .title {
+  font-size: 16px;
+  color: #1a181e;
+  line-height: 16px;
+  margin-bottom: 10px;
+  font-family: "galano-medium";
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 815px) {
+  .guide_parent {
+    flex-direction: column;
+    align-items: center;
+  }
+  .guide_container {
+    width: 80%;
+    margin: 20px 0;
+  }
+}

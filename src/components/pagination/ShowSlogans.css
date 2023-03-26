@@ -1,0 +1,47 @@
+.slogan {
+  width: 100%;
+}
+
+.slogans_container {
+  width: 100%;
+  font-family: "galano-regular";
+  box-sizing: border-box;
+  padding: 0 1px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.slogans_container p {
+  width: 48%;
+  margin: 0 0 18px 0;
+  padding: 8px 12px;
+  border-radius: 3px;
+  background-color: #f2f2f2;
+  font-size: 14px;
+  color: #1a181e;
+  font-family: inherit;
+  cursor: pointer;
+}
+.slogan_label {
+  position: relative;
+  box-sizing: border-box;
+}
+.slogan_label label {
+  position: absolute;
+  font-size: 12px;
+  background-color: #4d4d4d;
+  color: #fff;
+  padding: 4px;
+  border-radius: 2px;
+  width: max-content;
+  left: -90px;
+}
+
+@media only screen and (max-width: 815px) {
+  .slogans_container {
+    flex-direction: column;
+  }
+  .slogans_container p {
+    width: 100%;
+  }
+}

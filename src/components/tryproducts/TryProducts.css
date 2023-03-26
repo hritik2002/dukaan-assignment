@@ -1,0 +1,41 @@
+.tryproducts {
+  padding: 40px 10%;
+  box-sizing: border-box;
+  text-align: start;
+  font-family: "galano-regular";
+}
+.tryproducts_title {
+  color: #1a181e;
+  font-family: "galano-semibold";
+  font-size: 22px;
+  margin-bottom: 35px;
+}
+.tryproducts_parent_container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 30px;
+}
+.tryproducts_container img {
+  width: 100%;
+}
+.tryproducts_container .container_description {
+  font-size: 13px;
+  color: #4d4d4d;
+  margin: 0;
+  font-family: inherit;
+}
+.tryproducts_container .container_title {
+  font-size: 15px;
+  color: #1a181e;
+  line-height: 14px;
+  margin-bottom: 8px;
+  font-family: "galano-medium";
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 815px) {
+  .tryproducts_parent_container {
+    grid-template-columns: auto auto;
+    gap: 30px;
+  }
+}
