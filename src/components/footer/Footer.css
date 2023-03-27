@@ -38,7 +38,6 @@
   cursor: pointer;
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 .footer_top_right div span {
   background-color: white;
