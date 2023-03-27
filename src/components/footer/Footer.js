@@ -61,6 +61,7 @@ function Footer() {
           {footerArr.map((value, index) => (
             <div key={value.title + index}>
               <p>{value.title}</p>
+              {value.label ? <span>{value.label}</span> : null}
             </div>
           ))}
         </div>
@@ -68,7 +69,9 @@ function Footer() {
       <hr />
       <div className="footer_bottom">
         <p>Dukaan 2020, All rights reserved</p>
-        <p>Made in <span>🇮🇳</span></p>
+        <p>
+          Made in <span>🇮🇳</span>
+        </p>
       </div>
     </div>
   );

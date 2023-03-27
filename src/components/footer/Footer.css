@@ -26,12 +26,28 @@
 }
 .footer_top_left img {
   max-width: 150px;
+  cursor: pointer;
 }
 .footer_top_right {
   display: grid;
   grid-template-columns: auto auto auto auto auto;
   gap: 10px 60px;
   text-align: start;
+}
+.footer_top_right div {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer_top_right div span {
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+  width: 20px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
 }
 .footer_top_right p {
   margin: 4px;

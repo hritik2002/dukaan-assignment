@@ -15,6 +15,7 @@
 }
 .navbar_container_left img {
   width: 120px;
+  cursor: pointer;
 }
 .navbar_container_right {
   display: flex;
