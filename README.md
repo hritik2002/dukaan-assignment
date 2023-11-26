@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# Dukaan UI Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains the code for Dukaan UI clone using ReactJS.
+It was an assignment given at <a href="https://twitter.com/mydukaanapp" target="_blank">@Dukaan</a> for Frontend Intern role.
 
-## Available Scripts
 
-In the project directory, you can run:
+## Problem Statement
 
-### `npm start`
+The task is to create a Dukaan's home page clone. I was given a figma link, and was told to clone it pixel perfect.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Folder Structure
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The folder structure of this repository is as follows:
 
-### `npm test`
+<img width="293" alt="Screenshot 2023-11-26 at 8 56 25 PM" src="https://github.com/hritik2002/dukaan-assignment/assets/72138429/bd9282a2-5d67-460e-97e6-27c206d6ce8f">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+- The `src/components` directory contains the React components used in the application.
+- The `src/App.js` file is the main entry point of the application.
+- The `src/index.js` file is responsible for rendering the root component (`App`) into the DOM.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Output of the code
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<img width="1439" alt="Screenshot 2023-11-26 at 8 51 29 PM" src="https://github.com/hritik2002/dukaan-assignment/assets/72138429/680dccf6-e41c-44e4-ba94-5fb69b8488ea">
+<img width="1440" alt="Screenshot 2023-11-26 at 8 52 10 PM" src="https://github.com/hritik2002/dukaan-assignment/assets/72138429/6f4026c6-7c88-4bb9-afbc-39266b02a6ce">
+<img width="1433" alt="Screenshot 2023-11-26 at 8 52 19 PM" src="https://github.com/hritik2002/dukaan-assignment/assets/72138429/d51433d1-cbbd-4101-847d-880ef010ac16">
+<img width="1434" alt="Screenshot 2023-11-26 at 8 52 27 PM" src="https://github.com/hritik2002/dukaan-assignment/assets/72138429/2c28c56c-380b-46db-a0fd-81be8083b7bb">
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Running the Application
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+To run the application locally, follow these steps:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Clone this repository to your local machine.
+2. Navigate to the project directory.
+3. Install the dependencies by running the command: `npm install`.
+4. Start the development server by running the command: `npm start`.
+5. Open your browser and visit `http://localhost:3000` to see the webpage.
 
-## Learn More
+Feel free to explore the code, modify it according to your needs, and provide any feedback or suggestions.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Happy coding!
