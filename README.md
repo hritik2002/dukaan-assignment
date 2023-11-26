@@ -22,9 +22,16 @@ The folder structure of this repository is as follows:
 
 ## Output of the code
 
+### Image 1:
 <img width="1439" alt="Screenshot 2023-11-26 at 8 51 29 PM" src="https://github.com/hritik2002/dukaan-assignment/assets/72138429/680dccf6-e41c-44e4-ba94-5fb69b8488ea">
+
+### Image 2:
 <img width="1440" alt="Screenshot 2023-11-26 at 8 52 10 PM" src="https://github.com/hritik2002/dukaan-assignment/assets/72138429/6f4026c6-7c88-4bb9-afbc-39266b02a6ce">
+
+### Image 3:
 <img width="1433" alt="Screenshot 2023-11-26 at 8 52 19 PM" src="https://github.com/hritik2002/dukaan-assignment/assets/72138429/d51433d1-cbbd-4101-847d-880ef010ac16">
+
+### Image 4:
 <img width="1434" alt="Screenshot 2023-11-26 at 8 52 27 PM" src="https://github.com/hritik2002/dukaan-assignment/assets/72138429/2c28c56c-380b-46db-a0fd-81be8083b7bb">
 
 
